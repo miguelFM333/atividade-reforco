@@ -13,5 +13,5 @@ class Livro implements MaterialLeitura{
 
     exibirDetakhe(): void {
         console.log("Titulo: " + this.titulo + ", Autor: " + this.autor + ", Numero de Paginas: " + this.numeroPagina)
-    }s
+    }
 }
