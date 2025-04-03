@@ -1,14 +1,14 @@
 import { MaterialLeitura } from "./MaterialLeitura";
 
-class Artigo implements MaterialLeitura{
+export class Artigo implements MaterialLeitura{
     titulo: String;
     autor: String;
     dataPublicacao: Date;
 
     constructor(titulo: String, autor: String, dataPublicacao: Date){
-        titulo = this.titulo;
-        autor = this.autor;
-        dataPublicacao = this.dataPublicacao;
+        this.titulo = titulo;
+        this.autor = autor;
+        this.dataPublicacao = dataPublicacao;
     }
 
     exibirDetakhe(): void {
